@@ -1,0 +1,243 @@
+{
+  "basics": {
+    "name": "Sergey Derunov",
+    "label": "Senior Software Engineer",
+    "email": "mr.derunov@gmail.com",
+
+    "url": "https://mrderunov.github.io",
+    "location": {
+      "city": "Yerevan",
+      "countryCode": "AM"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "derunov-sergey",
+        "url": "https://www.linkedin.com/in/derunov-sergey"
+      },
+      {
+        "network": "GitHub",
+        "username": "derunov",
+        "url": "https://github.com/MrDerunov"
+      }
+    ],
+    "summary": "Senior Software Engineer with 13+ years of experience in system integration, legacy modernization, and distributed systems. I work with mature, complex systems where reliability, performance, integrations, and legacy constraints matter. My focus is bringing well-structured product architecture, reducing technical debt, and making complex systems more understandable and easier to test. 70% of my workflow is AI-assisted — from code analysis and refactoring to tests and prototypes."
+  },
+  "stats": [
+    { "value": "13+", "label": "Years of Experience" },
+    { "value": "4", "label": "Companies" },
+    { "value": "70%", "label": "AI-Assisted Workflow" }
+  ],
+  "work": [
+    {
+      "version": "v4.0",
+      "company": "Revizto",
+      "position": "Senior Software Engineer",
+      "startDate": "2024-05",
+      "endDate": null,
+      "summary": "Core product architecture and legacy modernization for a BIM/CAD collaboration platform",
+      "highlights": [
+        "Refactored legacy core logic into cleaner, testable business domains",
+        "Designed service architecture for new core product components, enabling independent deployment of previously monolithic modules",
+        "Achieved 60-90% business logic test coverage for core services and critical workflows through automated integration and unit tests",
+        "Built infrastructure for long-running operations with easy testability and monitoring",
+        "Recovered and formalized domain knowledge hidden in legacy code, documenting 50+ undocumented business rules",
+        "Fixed integrations between desktop applications, services, and CAD/plugin environments",
+        "Applied AI-assisted engineering tools across ~70% of development workflows, accelerating refactoring and test creation"
+      ],
+      "stack": ["C#", ".NET", "ASP.NET", "WPF", "Unity", "SQLite", "Docker", "protobuf"],
+      "domains": ["BIM", "CAD", "3D", "Desktop", "Legacy Modernization"],
+      "added": "Modular domain-separated architecture replacing monolithic component coupling, automated test suites for critical paths, AI-assisted development pipeline, infrastructure for long-running operations with testability",
+      "changed": "Legacy monolith → modular domain-separated architecture, manual QA → automated integration testing",
+      "fixed": "Database lock contention under concurrent user workflows, integrations between desktop applications, services, and CAD/plugin environments",
+      "deprecated": "Direct database access from UI layer, monolithic project file synchronization"
+    },
+    {
+      "version": "v3.0",
+      "company": "Smartcat",
+      "position": "Full Stack Engineer",
+      "startDate": "2021-04",
+      "endDate": "2024-05",
+      "summary": "Microservice architecture and integration platform for a localization SaaS",
+      "highlights": [
+        "Designed microservice architecture and service interaction patterns for product-scale features used by 1,000+ enterprise customers",
+        "Built Smartcat Drive — a core product component replacing flat file lists with hierarchical folder/file structure and workflow management",
+        "Released 2 generations of integration hub: first — quick Kubernetes-based prototype, second — hierarchical provider architecture enabling new external system integration in 2 weeks from scratch",
+        "Built integration services connecting Smartcat with 15+ external customer systems (Zendesk, Contentful, Google Docs, AWS, GitHub, Figma, etc.)",
+        "Created comprehensive integration autotests covering main interaction scenarios between external systems and the localization platform",
+        "Pioneered media workflow capabilities: video, audio, subtitles, transcription, and auto-translation — a new product capability enabled by my work",
+        "Achieved 60-90% business logic test coverage across integration and media processing services through comprehensive automated test suites"
+      ],
+      "stack": ["C#", "ASP.NET", "MongoDB", "Vue", "TypeScript", "Python", "Kafka", "Docker", "Kubernetes"],
+      "domains": ["Localization", "Microservices", "Integrations", "Media Processing", "SaaS"],
+      "added": "Smartcat Drive (hierarchical file management), Media-Service (new product capability: video/audio/subtitles/transcription), 2nd-gen integration hub with provider architecture (2-week integration turnaround) and web UI via Kubernetes & Docker, comprehensive integration test suites (60-90% logic coverage)",
+      "changed": "Flat file list → hierarchical folder/file structure in Drive, old integration approach (months per integration) → provider-based hub (2 weeks per integration)",
+      "fixed": "Scaled integration architecture from quick K8s prototype to production-grade hierarchical provider system, eliminated months-long integration development cycles",
+      "deprecated": "Old integration adapters requiring months of development each, flat unstructured file storage, synchronous cross-service communication for non-critical paths"
+    },
+    {
+      "version": "v2.0",
+      "company": "AO Lengiprotrans",
+      "position": "Software Engineer, CAD Developer, PDM Developer",
+      "startDate": "2016-01",
+      "endDate": "2021-04",
+      "summary": "System integration, CAD/BIM automation, and legacy modernization for a large engineering design institute",
+      "highlights": [
+        "Split legacy business applications into standalone services and integration components, reducing deployment downtime",
+        "Built data synchronization, validation, and project documentation assembly pipelines processing 10,000+ engineering documents monthly",
+        "Automated electronic signature workflows for government-facing document exchange, eliminating from 3-5 days to under 2 hours",
+        "Built internal systems for engineering design, CAD/BIM, document management, and business process automation serving 200+ engineers",
+        "Developed 20+ Autodesk plugins and services for Revit, Civil 3D, and Autodesk Vault (CAD, BIM, PLM/PDM)",
+        "Designed parsers, validators, and analyzers for incoming engineering data, reducing data errors by ~80%",
+        "Built CadFerma — a web service orchestrating multiple CAD tools (Revit, Civil 3D, AutoCAD) with plugin architecture for cross-tool engineering data validation",
+        "Built automated test suites for data validation pipelines and integration components, ensuring reliability of 10,000+ monthly document processing"
+      ],
+      "stack": ["C#", "JavaScript", "WPF", "ASP.NET", "Node.js", "React", "SQL Server", "PostgreSQL", "Autodesk APIs"],
+      "domains": ["CAD", "BIM", "PLM/PDM", "Electronic Signatures", "Document Automation", "Engineering"],
+      "added": "CadFerma — multi-CAD validation platform orchestrating several CAD tools via web service with plugin architecture, data validation and sync pipelines, electronic signature integration, Autodesk plugin ecosystem (20+ plugins), document assembly automation",
+      "changed": "Legacy monolithic apps → microservices, paper-based workflows → electronic document management, manual data validation → automated pipelines",
+      "fixed": "Stability issues under high load with large engineering datasets, data inconsistency between CAD and PDM systems, document compliance errors",
+      "deprecated": "Paper-based document approval chains, manual CAD standards checking, legacy file-based data exchange formats"
+    },
+    {
+      "version": "v1.0",
+      "company": "PAO Lengiprotrans",
+      "position": "Software Developer, CAD Developer",
+      "startDate": "2013-05",
+      "endDate": "2016-01",
+      "summary": "CAD automation and enterprise tooling for engineering teams",
+      "highlights": [
+        "Developed Autodesk plugins and CAD automation tools for engineering teams, reducing manual design work by ~30%",
+        "Automated internal CAD, documentation, and enterprise-standard compliance workflows",
+        "Supported and extended proprietary CAD systems used in production by 200+ engineers",
+        "Built tools that automated repetitive design tasks, saving 15+ hours per engineer per month",
+        "Created test suites for CAD automation tools, validating correctness of engineering design workflows"
+      ],
+      "stack": ["C#", "JavaScript", "Autodesk APIs", "CAD Automation", "PLM/PDM"],
+      "domains": ["CAD", "Engineering Automation", "Desktop Apps", "Enterprise Standards"],
+      "added": "CAD automation tools, enterprise workflow automation, user training program",
+      "changed": "Manual design workflows → automated CAD tooling, individual work → standardized enterprise processes",
+      "fixed": "Repetitive manual design tasks, inconsistent enterprise standards application",
+      "deprecated": "Fully manual CAD workflows, non-standardized design processes"
+    }
+  ],
+  "wins": [
+    {
+      "title": "Legacy Modernization at Revizto",
+      "context": "A large BIM/CAD desktop platform with 10+ years of accumulated legacy code. Core business logic tightly coupled to UI, undocumented domain knowledge, fragile under change.",
+      "problem": "Adding features took weeks due to ripple effects across tightly coupled modules. No automated tests meant regression bugs on every release. Domain knowledge was siloed in senior developers' heads.",
+      "solution": "Reverse-engineered legacy code into documented domain modules. Introduced service layer separating business logic from UI. Built automated test harness around critical workflows. Applied AI-assisted analysis to accelerate knowledge recovery.",
+      "result": "Significantly fewer regression bugs. Domain knowledge formalized in code and docs. Test coverage reached 60%+ on critical paths."
+    },
+    {
+      "title": "Smartcat Drive — New Platform Core with Hierarchical Structure",
+      "context": "Localization platform stored thousands of files as flat lists. Every file operation was individual and manual.",
+      "problem": "Flat file lists didn't scale. Customers managed thousands of files with no organizational structure. Bulk operations (move, copy, delete, tag) were impossible. No API existed for file and folder operations — every interaction went through the UI.",
+      "solution": "Built Smartcat Drive — a new core platform kernel replacing flat lists with hierarchical folder/file structure. Designed an abstract DOM-like model where any entity (file, folder, external system object) is a node in a tree. Built a dedicated Drive API for programmatic file/folder interaction. Implemented bulk operations across the tree structure.",
+      "result": "The platform got a proper hierarchical file system kernel. Files and folders became abstract nodes — any external system object could be represented in the tree. The Drive API enabled programmatic interaction with the file structure. Bulk operations automated key file workflows."
+    },
+    {
+      "title": "Media Workflow Automation",
+      "context": "Localization platform expanding into multimedia. Customers needed video/audio localization — transcription, subtitle generation, dubbing. Each media format required different processing pipeline.",
+      "problem": "No existing media processing infrastructure. Video files are large (multi-GB), processing is slow and resource-intensive. Multiple third-party tools (ffmpeg, transcription APIs) need orchestration.",
+      "solution": "Built Docker-based media processing microservices with async job queues. Created format-agnostic pipeline: ingest → transcribe → translate → generate subtitles/dubbing → deliver. Used AST-based format conversion for subtitle formats.",
+      "result": "Introduced media processing capability from scratch — the platform had no video/audio/subtitle support before. Supported virtually any media format via ffmpeg-based pipeline. Enabled new revenue stream — media localization became a paid add-on."
+    },
+    {
+      "title": "Electronic Signature & Government Document Automation",
+      "context": "Russian engineering design institute required by law to submit project documentation to government expertise review with electronic signatures. Documents are multi-GB engineering projects with strict format requirements.",
+      "problem": "Manual document preparation took 3-5 days per submission. Russian cryptographic standards (GOST) different from Western PKI. Errors in signature placement caused document rejection by government systems.",
+      "solution": "Built automated document assembly pipeline: CAD data → PDF → structured document package → GOST electronic signature → government portal submission. Integrated Russian cryptographic libraries with .NET-based workflow engine.",
+      "result": "Processing time reduced from 3-5 days to under 2 hours. Document rejection rate dropped by 80%. System processed thousands of documents."
+    },
+    {
+      "title": "Integration Hub — From Months to 2 Weeks per Integration",
+      "context": "Localization platform needed to integrate with 15+ external systems (Zendesk, Contentful, Google Docs, AWS, GitHub, Figma, Okta, Jira). Each integration required months of custom development with tightly coupled adapters.",
+      "problem": "Integration development was slow (months per system), brittle under API changes, and each adapter was a one-off with no shared infrastructure. Adding a new integration was a major engineering investment.",
+      "solution": "Built 2 generations of integration hub: v1 — quick Kubernetes-based prototype proving the hub concept; v2 — hierarchical provider architecture with shared base classes, standardized authentication, and pluggable data transformers. Each new integration becomes a provider implementing well-defined interfaces.",
+      "result": "New integration time dropped from months to 2 weeks. 15+ integrations unified under single architecture with web UI for managing and monitoring all external system connections. Old brittle adapters fully deprecated. Integration autotests ensure reliability across all external system interactions."
+    },
+    {
+      "title": "CadFerma — Multi-CAD Validation Platform",
+      "context": "Engineering design institute used multiple CAD tools (Revit, Civil 3D, AutoCAD) for railway, highway, building, and structure design. Each tool had its own proprietary format and validation logic. Engineers manually checked designs across tools — slow, error-prone, and inconsistent.",
+      "problem": "No unified way to validate engineering data across different CAD systems. Each CAD tool operated in isolation. Validation rules were applied manually per tool. Switching between tools to cross-check a single design took hours.",
+      "solution": "Built CadFerma - a web service orchestrating multiple CAD applications (Revit, Civil 3D, AutoCAD) under a single plugin-based interface. It loaded models from each tool, ran cross-tool validation checks, and produced unified compliance reports, replacing hours of manual cross-referencing.",
+      "result": "Engineers could validate designs across multiple CAD tools through a single web interface. Cross-tool validation time dropped from hours to minutes. Automated checks replaced manual cross-referencing. Plugin architecture allowed adding new CAD tools and validation rules without changing core service logic."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["C#", "TypeScript", "JavaScript", "Python", "SQL", "Perl", "C/C++", "VBA"]
+    },
+    {
+      "category": "Frameworks & Runtimes",
+      "items": [".NET", "ASP.NET Core", "WPF", "WinForms", "Blazor", "Node.js", "React", "Vue", "Unity"]
+    },
+    {
+      "category": "Data & Storage",
+      "items": ["MongoDB", "SQL Server", "PostgreSQL", "SQLite", "ChromaDB", "Redis", "Entity Framework"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["Docker", "Kubernetes", "Kafka", "RabbitMQ", "protobuf", "REST APIs", "WebDAV", "CI/CD"]
+    },
+    {
+      "category": "Cloud & Services",
+      "items": ["AWS", "Google Cloud", "Azure", "GitHub Actions"]
+    },
+    {
+      "category": "Integrations",
+      "items": ["Autodesk APIs", "Revit API", "Civil 3D API", "Autodesk Vault", "Zendesk API", "Contentful", "Google Docs API", "Figma API", "GitHub API", "Okta/OAuth", "Jira API", "ffmpeg"]
+    },
+    {
+      "category": "AI & Automation",
+      "items": ["Claude", "Cursor", "AI-Assisted Development", "ChatGPT", "GitHub Copilot", "AI-Assisted Refactoring"]
+    },
+    {
+      "category": "Domains",
+      "items": ["System Design", "Legacy Modernization", "BIM", "CAD", "PLM/PDM", "Microservices", "Distributed Systems", "System Integration", "Electronic Signatures", "Document Automation", "Localization", "Media Processing"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Peter the Great St. Petersburg Polytechnic University",
+      "area": "Application Software Development",
+      "studyType": "Professional Retraining",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "Saint-Petersburg Mining University",
+      "area": "Systems Analysis, Automation and Control",
+      "studyType": "Bachelor",
+      "startDate": "2011",
+      "endDate": "2015"
+    },
+    {
+      "institution": "Saint Petersburg Electrotechnical College",
+      "area": "Electrical Machines and Devices",
+      "studyType": "Secondary Vocational Education",
+      "startDate": "2003",
+      "endDate": "2007"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Software Architecture Foundations",
+      "issuer": "LinkedIn Learning"
+    },
+    {
+      "name": "Software Architecture: Patterns for Developers",
+      "issuer": "LinkedIn Learning"
+    },
+    {
+      "name": "AI-Powered Development",
+      "issuer": "LinkedIn Learning"
+    }
+  ],
+  "languages": [
+    { "language": "Russian", "fluency": "Native" },
+    { "language": "English", "fluency": "Professional Working" }
+  ]
+}
