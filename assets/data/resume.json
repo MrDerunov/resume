@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Sergey Derunov",
-    "label": "Senior Software Engineer",
+    "label": "Agentic Software Engineer",
     "email": "mr.derunov@gmail.com",
 
     "url": "https://mrderunov.github.io",
@@ -21,12 +21,11 @@
         "url": "https://github.com/MrDerunov"
       }
     ],
-    "summary": "Senior Software Engineer with 13+ years of experience in system integration, legacy modernization, and distributed systems. I work with mature, complex systems where reliability, performance, integrations, and legacy constraints matter. My focus is bringing well-structured product architecture, reducing technical debt, and making complex systems more understandable and easier to test. 70% of my workflow is AI-assisted — from code analysis and refactoring to tests and prototypes."
+    "summary": "I orchestrate teams of AI coding agents to analyze feature proposals, build codebase context, coordinate tasks, implement changes, review code, and write tests. I use agents to investigate performance bottlenecks and architectural weaknesses in complex systems."
   },
   "stats": [
-    { "value": "13+", "label": "Years of Experience" },
     { "value": "4", "label": "Companies" },
-    { "value": "70%", "label": "AI-Assisted Workflow" }
+    { "value": "99%", "label": "of coding work involves AI agents" }
   ],
   "work": [
     {
@@ -43,11 +42,11 @@
         "Built infrastructure for long-running operations with easy testability and monitoring",
         "Recovered and formalized domain knowledge hidden in legacy code, documenting 50+ undocumented business rules",
         "Fixed integrations between desktop applications, services, and CAD/plugin environments",
-        "Applied AI-assisted engineering tools across ~70% of development workflows, accelerating refactoring and test creation"
+        "Orchestrate AI coding agents across core engineering work, including feature analysis, task coordination, implementation, code review, and testing. Use agents to investigate performance bottlenecks and identify architectural weaknesses in a mature BIM/CAD codebase."
       ],
       "stack": ["C#", ".NET", "ASP.NET", "WPF", "Unity", "SQLite", "Docker", "protobuf"],
       "domains": ["BIM", "CAD", "3D", "Desktop", "Legacy Modernization"],
-      "added": "Modular domain-separated architecture replacing monolithic component coupling, automated test suites for critical paths, AI-assisted development pipeline, infrastructure for long-running operations with testability",
+      "added": "Modular domain-separated architecture replacing monolithic component coupling, automated test suites for critical paths, AI coding agent orchestration for feature analysis, task coordination, implementation, review, and testing, infrastructure for long-running operations with testability",
       "changed": "Legacy monolith → modular domain-separated architecture, manual QA → automated integration testing",
       "fixed": "Database lock contention under concurrent user workflows, integrations between desktop applications, services, and CAD/plugin environments",
       "deprecated": "Direct database access from UI layer, monolithic project file synchronization"
@@ -191,8 +190,8 @@
       "items": ["Autodesk APIs", "Revit API", "Civil 3D API", "Autodesk Vault", "Zendesk API", "Contentful", "Google Docs API", "Figma API", "GitHub API", "Okta/OAuth", "Jira API", "ffmpeg"]
     },
     {
-      "category": "AI & Automation",
-      "items": ["Claude", "Cursor", "AI-Assisted Development", "ChatGPT", "GitHub Copilot", "AI-Assisted Refactoring"]
+      "category": "Agentic Development",
+      "items": ["AI Coding Agent Orchestration", "Codebase Analysis", "Task Decomposition", "Code Review & Testing", "Claude Code", "Cursor", "DeepSeek Harness", "ChatGPT", "GitHub Copilot"]
     },
     {
       "category": "Domains",
